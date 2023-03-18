@@ -10,10 +10,10 @@ class MultipleCatch
 		DataInputStream din=new DataInputStream(System.in);
 		try
 		{
-			System.out.println("Enter the size: ");
+			System.out.println("Enter the Size: ");
 			n=Integer.parseInt(din.readLine());
 			a=new int[n];
-			System.out.println("Enter Array elements: ");
+			System.out.println("Enter the Array Elements: ");
 			for(i=0;i<n;i++)
 			{
 				a[i]=Integer.parseInt(din.readLine());
